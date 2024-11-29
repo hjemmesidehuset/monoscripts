@@ -1,4 +1,4 @@
-/* Written by Jonas Tisell at Hjemmesidehuset */
+/* Copyright Hjemmesidehuset 2024 - MIT License */
 
 if (typeof snippet_search === 'undefined') {
   var snippet_search = "Search";
