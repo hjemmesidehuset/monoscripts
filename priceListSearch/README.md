@@ -28,7 +28,7 @@ Keep in mind this needs to precede the script, or else it will not work.
 The default texts that the script uses are written in English. To change the translations, add the following script above or under the script
 ```html
 <script>
-var snippet_search = "Søk";
-var snippet_results = "resultater";
+snippet_search = "Søk";
+snippet_results = "resultater";
 </script>
 ```

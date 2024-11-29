@@ -1,11 +1,11 @@
 /* Copyright Hjemmesidehuset 2024 - MIT License */
 
-if (typeof snippet_search === 'undefined') {
-  var snippet_search = "Search";
+if (typeof window.snippet_search === 'undefined') {
+  window.snippet_search = "Search";
 }
 
-if (typeof snippet_results === 'undefined') {
-  var snippet_results = "results";
+if (typeof window.snippet_results === 'undefined') {
+  window.snippet_results = "results";
 }
 
 function search(query, listId) {
@@ -30,7 +30,7 @@ function search(query, listId) {
       productCount++;
     }
   }
-  resultElem.innerText = `${productCount} ${snippet_results}`;
+  resultElem.innerText = `${productCount} ${window.snippet_results}`;
   resultElem.classList.remove("hidden");
 }
 
@@ -65,7 +65,7 @@ for (let i = 0; i < searchablePriceLists.length; i++){
   searchInput.setAttribute("type", "text");
   searchInput.style.border = "1px solid #ccc";
   searchInput.style.marginTop = "0";
-  searchInput.placeholder = snippet_search;
+  searchInput.placeholder = window.snippet_search;
   searchBar.appendChild(searchInput);
 
   const searchBtn = document.createElement("div");
