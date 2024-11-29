@@ -1,11 +1,11 @@
 /* Written by Jonas Tisell at Hjemmesidehuset */
 
-if (typeof snippet_search == 'undefined') {
-  let snippet_search = "Search";
+if (typeof snippet_search === 'undefined') {
+  var snippet_search = "Search";
 }
 
-if (typeof snippet_results == 'undefined') {
-  let snippet_results = "results";
+if (typeof snippet_results === 'undefined') {
+  var snippet_results = "results";
 }
 
 function search(query, listId) {
@@ -36,7 +36,7 @@ function search(query, listId) {
 
 if (!searchablePriceLists) {
   console.warn("Search isn't enabled on any price lists!");
-  let searchablePriceLists = [];
+  var searchablePriceLists = [];
 }
 
 for (let i = 0; i < searchablePriceLists.length; i++){
