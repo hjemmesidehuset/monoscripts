@@ -3,7 +3,7 @@
 ## Installation
 Add this line to the text field `Body tag (Global HTML)` in the *Site settings*:
 ```html
-<script src="blablabla"></script>
+<script src="https://cdn.jsdelivr.net/gh/hjemmesidehuset/monoscripts@main/priceListSearch/priceListSearch.min.js"></script>
 ```
 
 ## Enabling search for specific price lists
