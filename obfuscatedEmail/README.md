@@ -5,7 +5,7 @@ Obfuscation using simple Base64 decoding.
 Add both of these lines in a `HTML-module`. If there are more than one obfuscated email, you should add the script-tag only to the text field `Body tag (Global HTML)` in the *Site settings*.
 ```html
 <obfemail data-email="anRpQHN1cGVyYXRvci5ubw==" data-class="preamble"/>
-<script src="LINK_TO_JS_DELIVR"></script>
+<script src="https://cdn.jsdelivr.net/gh/hjemmesidehuset/monoscripts@main/obfuscatedEmail/obfuscatedEmail.js"></script>
 ```
 If empty, the class will default to bodytext.
 
