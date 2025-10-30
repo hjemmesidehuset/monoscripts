@@ -4,6 +4,6 @@ Adds a Pinterest share button , which sends a "pin it" request to Pinterest with
 ## Usage
 Add this line in `Body tag (Global HTML)` in the *Site settings*.
 ```html
-<script src="#"></script>
+<script src="https://cdn.jsdelivr.net/gh/hjemmesidehuset/monoscripts@main/pinterestShareButton/pinterestShareButton.min.js"></script>
 ```
 If share buttons are disabled on posts, it will throw an error. If this is the case, there is no need for this script.
